@@ -116,3 +116,74 @@ You can connect to GitHub using the Secure Shell Protocol (SSH), which provides 
 
 - Follow the instructions to push an existing repository from the command line.
 
+
+## Branches
+
+
+branches represent features or bug fixes.
+
+
+**git branch** command lets you create, list, rename, and delete branches.
+
+```sh
+git branch
+```
+
+
+**git checkout** command lets you navigate between the branches.
+
+**git checkout -b** command lets you create a new branch and navigate to it.
+
+```sh
+git checkout -b fix-readme
+```
+
+
+```sh
+git branch
+```
+
+
+**git status** command lets you check the status of your repository.
+
+```sh
+git status
+```
+
+
+**git add .** command lets you add all the files to the staging area.
+
+```sh
+git add .
+```
+
+
+**git commit -m** command lets you commit your changes to the current branch.
+
+```sh
+git commit -m "Fix readme"
+```
+
+
+**git push --set-upstream origin** command lets you push your branch to the remote repository(Github).
+
+```sh
+git push --set-upstream origin fix-readme
+```
+
+
+
+## Merging Pull Requests
+
+
+pull request referred to a merge request 
+
+---
+
+### Resources
+
+- [What Is GitHub? A Beginner Introduction to GitHub](https://kinsta.com/knowledgebase/what-is-github/)
+- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)
+- [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+- [What is a difference between local and remote repository?](https://www.bettercoder.io/job-interview-questions/532/what-is-a-difference-between-local-and-remote-repository)
+- [The Ultimate Github Collaboration Guide](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67)
