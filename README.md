@@ -116,3 +116,7 @@ You can connect to GitHub using the Secure Shell Protocol (SSH), which provides 
 
 - Follow the instructions to push an existing repository from the command line.
 
+## Branches
+
+
+branches represent features or bug fixes.
